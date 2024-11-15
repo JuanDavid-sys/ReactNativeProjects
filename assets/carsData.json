@@ -1,0 +1,213 @@
+[
+    {
+      "id": "1",
+      "model_name": "Ferrari LaFerrari",
+      "model_year": "2015",
+      "image": "https://cdn.ferrari.com/cms/network/media/img/resize/64a6982af7499d002469818a-tofm_1320420_1920x1080?",
+      "description": "Un superdeportivo de Ferrari con diseño avanzado y un motor V12 híbrido."
+    },
+    {
+      "id": "2",
+      "model_name": "Lamborghini Aventador",
+      "model_year": "2021",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDVgNabMHN9pHadX2y1CF2iAHzTUvW9H0AQ&s",
+      "description": "Potente y elegante, con motor V12 y diseño característico de Lamborghini."
+    },
+    {
+      "id": "3",
+      "model_name": "Porsche 911 Turbo S",
+      "model_year": "2020",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYoieI-7zMVexKZ0eCrYbo-T3VMo6_p1C3oA&s",
+      "description": "Un auto deportivo de alta gama que ofrece rendimiento y confort."
+    },
+    {
+      "id": "4",
+      "model_name": "McLaren P1",
+      "model_year": "2014",
+      "image": "https://mclaren.scene7.com/is/image/mclaren/Mclaren-P1-GTR-everything-tile-1200x1200:crop-4x3?wid=1920&hei=1440",
+      "description": "Superdeportivo híbrido con un motor V8 y tecnología avanzada."
+    },
+    {
+      "id": "5",
+      "model_name": "Bugatti Veyron",
+      "model_year": "2005",
+      "image": "https://images1.autocasion.com/actualidad/wp-content/uploads/2011/12/Bugatti-Veyron-900x656.jpg",
+      "description": "Un automóvil de lujo con un motor W16 y una velocidad máxima de 400 km/h."
+    },
+    {
+      "id": "6",
+      "model_name": "Chevrolet Corvette C8",
+      "model_year": "2020",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBtGuRWStZMDOXPzrmKg2LyqsQuPLLEHbhg&s",
+      "description": "Auto deportivo de motor central, conocido por su rendimiento y accesibilidad."
+    },
+    {
+      "id": "7",
+      "model_name": "Audi R8 V10",
+      "model_year": "2022",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe_hZPWiulVo3CMe-3yEDu9f0YsknVd5QbxQ&s",
+      "description": "Deportivo de lujo con motor V10 y tracción total."
+    },
+    {
+      "id": "8",
+      "model_name": "Nissan GT-R",
+      "model_year": "2020",
+      "image": "https://i.ytimg.com/vi/p93eTXnRAIs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB4L2RoYBIxgIGoCU1qGL1sTYJikQ",
+      "description": "Un coche de alto rendimiento conocido por su agilidad y potencia."
+    },
+    {
+      "id": "9",
+      "model_name": "Ford Mustang Shelby GT500",
+      "model_year": "2020",
+      "image": "https://fotos.perfil.com/2019/06/28/trim/876/492/el-nuevo-ford-mustang-shelby-gt500-ofrecera-760-caballos-de-potencia-747118.jpg",
+      "description": "Icono estadounidense con motor V8 sobrealimentado y un rendimiento impresionante."
+    },
+    {
+      "id": "10",
+      "model_name": "BMW M8 Competition",
+      "model_year": "2021",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT08-6F3oi-rcVPPs2V_CLWau8Rcoh3fxhpYw&s",
+      "description": "Deportivo de lujo con motor V8 y un interior de alto nivel."
+    },
+    {
+      "id": "11",
+      "model_name": "Yamaha YZF-R1",
+      "model_year": "2021",
+      "image": "https://pueyrredonmotos.com/wp-content/uploads/2018/01/Yamaha-YZF-R1-2020-3.jpg",
+      "description": "Moto deportiva de alto rendimiento, famosa por su manejo preciso y motor potente."
+    },
+    {
+      "id": "12",
+      "model_name": "Kawasaki Ninja H2",
+      "model_year": "2020",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwTwMAzLwufNsoFZHyLSVqDXTig7ihjjQ0ew&s",
+      "description": "Una moto de superbike con un motor sobrealimentado y tecnología avanzada."
+    },
+    {
+      "id": "13",
+      "model_name": "Ducati Panigale V4",
+      "model_year": "2021",
+      "image": "https://www.ducaticolombia.co/wp-content/uploads/2022/09/editorial_wide_V4_AP18686_UC93785-1330x768-1.jpg",
+      "description": "Moto de carreras con motor V4 y un rendimiento increíble en pista."
+    },
+    {
+      "id": "14",
+      "model_name": "Suzuki GSX-R1000",
+      "model_year": "2021",
+      "image": "https://www.motonews.com.ar/wp-content/uploads/2018/04/suzuki.gif",
+      "description": "Moto deportiva de Suzuki con tecnología avanzada y un potente motor."
+    },
+    {
+      "id": "15",
+      "model_name": "BMW S1000RR",
+      "model_year": "2021",
+      "image": "https://bmw.europe-moto.com/img/cms/P90490328_lowRes_the-new-bmw-s-1000-r%20(1).jpg",
+      "description": "Moto deportiva de alto rendimiento con motor de 4 cilindros y diseño agresivo."
+    },
+    {
+      "id": "16",
+      "model_name": "Honda CBR1000RR-R Fireblade",
+      "model_year": "2021",
+      "image": "https://i0.wp.com/motoracenation.com/wp-content/uploads/2021/05/1366_2000-1.jpg",
+      "description": "Moto de carreras de Honda, con un motor potente y diseño aerodinámico."
+    },
+    {
+      "id": "17",
+      "model_name": "Aston Martin DBS Superleggera",
+      "model_year": "2019",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiLVe7BIIt2M2hLvRPl-e3bfBUlTNerxVR6A&s",
+      "description": "Superdeportivo británico con motor V12 y tecnología de punta."
+    },
+    {
+      "id": "18",
+      "model_name": "Pagani Huayra",
+      "model_year": "2017",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/pagani-huayra-epitome-2-1-4-anteriore-portiera-guidatore-chiusa-6687a60182aa7.jpg",
+      "description": "Exclusivo y lujoso, con motor V12 y un diseño artesanal."
+    },
+    {
+      "id": "19",
+      "model_name": "Ferrari 488 GTB",
+      "model_year": "2015",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_868491-MLA76300358330_052024-O.webp",
+      "description": "Superdeportivo de Ferrari con motor V8 turboalimentado."
+    },
+    {
+      "id": "20",
+      "model_name": "McLaren 720S",
+      "model_year": "2017",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpXGpA2-T80Wc0H44Qi4jZKgzltjugGVrBbA&s",
+      "description": "Superdeportivo con motor V8 y una aceleración impresionante."
+    },
+    {
+      "id": "21",
+      "model_name": "Yamaha YZF-R6",
+      "model_year": "2020",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFkfgoNGC2UA78a1Ib0_Ky-2CzMnn72zzBHg&s",
+      "description": "Moto deportiva de mediana cilindrada, popular en las pistas de carreras."
+    },
+    {
+      "id": "22",
+      "model_name": "Honda CBR600RR",
+      "model_year": "2021",
+      "image": "https://img.remediosdigitales.com/6d1018/cbr600rr-1-2023/1366_2000.jpeg",
+      "description": "Moto de 600cc diseñada para carreras y rendimiento en carretera."
+    },
+    {
+      "id": "23",
+      "model_name": "Lamborghini Huracán",
+      "model_year": "2021",
+      "image": "https://as1.ftcdn.net/v2/jpg/05/53/03/60/1000_F_553036078_TkN16r3b2TDz8zCfiGtzSUA8IkGNf10n.jpg",
+      "description": "Superdeportivo con motor V10 y diseño aerodinámico."
+    },
+    {
+      "id": "24",
+      "model_name": "Chevrolet Camaro ZL1",
+      "model_year": "2021",
+      "image": "https://m.media-amazon.com/images/I/71W0xVYCEyL._AC_UF894,1000_QL80_.jpg",
+      "description": "Muscle car de alto rendimiento con motor V8 sobrealimentado."
+    },
+    {
+      "id": "25",
+      "model_name": "Kawasaki ZX-10R",
+      "model_year": "2021",
+      "image": "https://img.remediosdigitales.com/2961cc/kawasaki-zx-10r-2021-1/1366_2000.jpg",
+      "description": "Moto deportiva de Kawasaki, famosa por su rendimiento en pista."
+    },
+    {
+      "id": "26",
+      "model_name": "Ducati Monster 1200",
+      "model_year": "2021",
+      "image": "https://img.remediosdigitales.com/f77e42/ducati-monster-1200s-2/1366_2000.jpg",
+      "description": "Moto naked de Ducati con motor potente y diseño agresivo."
+    },
+    {
+      "id": "27",
+      "model_name": "Aston Martin V8 Vantage",
+      "model_year": "2021",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQt8RAKgH6NkIl3aLEQTOkQR1q9UGlsiPdYg&s",
+      "description": "Deportivo británico con motor V8 y un estilo elegante."
+    },
+    {
+      "id": "28",
+      "model_name": "Porsche 918 Spyder",
+      "model_year": "2015",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPmzPkGfV7Iit675cIj8UsB4DSfCgGgZP08w&s",
+      "description": "Híbrido enchufable con motor V8 y motores eléctricos para rendimiento excepcional."
+    },
+    {
+      "id": "29",
+      "model_name": "Harley-Davidson LiveWire",
+      "model_year": "2021",
+      "image": "https://i.blogs.es/5d6e98/harley-davidson-livewire-1/1366_521.jpg",
+      "description": "La moto eléctrica de Harley-Davidson, famosa por su tecnología avanzada."
+    },
+    {
+      "id": "30",
+      "model_name": "Triumph Speed Triple 1200 RS",
+      "model_year": "2021",
+      "image": "https://www.motoplanete.com/triumph/zoom-700px/10598-1200-Speed-Triple-RS-2025-1000px.webp",
+      "description": "Moto naked de alto rendimiento con motor de 1200cc."
+    }
+  ]
+  
