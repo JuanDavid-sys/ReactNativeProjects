@@ -1,10 +1,18 @@
-import { Link, Stack, Slot } from "expo-router";
-import { Pressable, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { FlatList, StyleSheet } from "react-native";
+import { Slot } from "expo-router";
 
 export default function Layout() {
   return (
-    <View className="flex-1 bg-black" style={{ backgroundColor: "black" }}>
-        <Slot />
-    </View>
+    <SafeAreaView style={styles.container}>
+      <Slot />
+    </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'black',
+  },
+});
