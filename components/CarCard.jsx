@@ -1,17 +1,25 @@
 import React, { useEffect, useRef } from "react";
-import { View, Text, Image, StyleSheet, Animated } from "react-native";
+import { View, Text, Image, StyleSheet, Animated, Pressable } from "react-native";
 import { Years } from "./Years";
+import { Link } from "expo-router";
+import { styled } from "nativewind";
+
+const StyledPressable = styled(Pressable);
 
 export function CarCard({ car }) {
   return (
-    <View style={styles.card}>
-      <Image source={{ uri: car.image }} style={styles.image} />
-      <View style={styles.secondcard}>
-        <Text style={styles.title}>{car.model_name}</Text>
-        <Years model_year={car.model_year} maxModel_year={2025} />
-        <Text style={styles.description}>{car.description}</Text>
-      </View>
-    </View>
+    <Link href={`/${car.model_name}`} asChild>
+      <StyledPressable className="active:opacity-70 border border-black active:border-white/50 mb-2 bg-gray-400/25 rounded-xl p-4">
+        <View style={styles.card}>
+          <Image source={{ uri: car.image }} style={styles.image} />
+          <View style={styles.secondcard} className="flex-shrink">
+            <Text style={styles.title}>{car.model_name}</Text>
+            <Years model_year={car.model_year} maxModel_year={2025} />
+            <Text style={styles.description}>{car.description}</Text>
+          </View>
+        </View>
+      </StyledPressable>
+    </Link>
   );
 }
 
@@ -37,11 +45,7 @@ export function AnimatedCarCard({ car, index }) {
 const styles = StyleSheet.create({
   card: {
     flexDirection: "row",
-    backgroundColor: "#333",
-    padding: 16,
-    marginBottom: 20,
-    borderRadius: 10,
-    alignItems: "center",
+    gap: 4,
   },
   image: {
     width: 150,
@@ -59,7 +63,4 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: "#ccc",
   },
-  secondcard: {
-    maxWidth: 150,
-  }
 });

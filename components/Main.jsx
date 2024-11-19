@@ -1,20 +1,26 @@
 import React, { useState } from "react";
-import { View, FlatList, StyleSheet, Text, SafeAreaView } from "react-native";
+import { Pressable,View, FlatList, StyleSheet, SafeAreaView } from "react-native";
 import { AnimatedCarCard } from "./CarCard";
 import carsData from "../assets/carsData.json";
 import { Link } from "expo-router";
+import { Logo } from "./Logo"; 
+import { CircleinfoIcon } from "./icons";
 
 export function Main() {
   const [cars] = useState(carsData);
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.headerText}>Exclusivos Automóviles</Text>
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }} className="flex-row justify-between items-center mb-4 mx-2">
+        <View>
+          <Logo />
+        </View>
+        <Link asChild href="/about">
+          <Pressable>
+            <CircleinfoIcon />
+          </Pressable>
+        </Link>
       </View>
-      <Link href="/about" style={{ color: "blue" }}>
-        Voy a about
-      </Link>
 
       <FlatList
         data={cars}
@@ -30,17 +36,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 20,
-  },
-  header: {
-    paddingVertical: 5,
-    paddingHorizontal: 20,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  headerText: {
-    fontSize: 24,
-    fontWeight: "bold",
-    color: "#fff",
   },
   listContent: {
     paddingHorizontal: 10,
