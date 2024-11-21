@@ -1,10 +1,12 @@
 import { Pressable, ScrollView, Text } from "react-native";
 import { Link } from "expo-router"
 import { HomeIcon } from "../components/icons";
+import { Screen } from "../components/Screen";
 
 export default function About() {
   return (
-    <ScrollView>
+    <Screen>
+    <ScrollView> 
       <Text style={{ color: "white" }}>
         About, proyecto juanete
       </Text>
@@ -28,5 +30,6 @@ export default function About() {
         incluye versiones de Lorem Ipsum.
       </Text>
     </ScrollView>
+    </Screen>
   );
 }

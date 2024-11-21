@@ -8,18 +8,18 @@ const StyledPressable = styled(Pressable);
 
 export function CarCard({ car }) {
   return (
-    <Link href={`/${car.model_name}`} asChild>
-      <StyledPressable className="active:opacity-70 border border-black active:border-white/50 mb-2 bg-gray-400/25 rounded-xl p-4">
-        <View style={styles.card}>
-          <Image source={{ uri: car.image }} style={styles.image} />
-          <View style={styles.secondcard} className="flex-shrink">
-            <Text style={styles.title}>{car.model_name}</Text>
-            <Years model_year={car.model_year} maxModel_year={2025} />
-            <Text style={styles.description}>{car.description}</Text>
-          </View>
-        </View>
-      </StyledPressable>
-    </Link>
+    <Link href={`/${car.id}`} asChild>
+  <StyledPressable className="active:opacity-70 border border-black active:border-white/50 mb-2 bg-gray-400/25 rounded-xl p-4">
+    <View style={styles.card}>
+      <Image source={{ uri: car.image }} style={styles.image} />
+      <View style={styles.secondcard} className="flex-shrink">
+        <Text style={styles.title}>{car.model_name}</Text>
+        <Years model_year={car.model_year} maxModel_year={2025} />
+        <Text style={styles.description}>{car.description}</Text>
+      </View>
+    </View>
+  </StyledPressable>
+</Link>
   );
 }
 
